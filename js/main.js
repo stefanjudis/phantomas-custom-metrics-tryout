@@ -24,9 +24,14 @@ if ( typeof window.__phantomas !== 'undefined' ) {
       foo : function() {}
     }
 
-    phantomas.spy( a, 'foo', function( a ) {
+    phantomas.spy( a, 'foo', function() {
       phantomas.incrMetric( 'functionCall' );
     } );
+
+    a.foo();
+    a.foo();
+    a.foo();
+    a.foo();
 
   } )( window.__phantomas );
 }
