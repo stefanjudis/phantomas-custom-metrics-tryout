@@ -10,10 +10,10 @@ if ( typeof window.__phantomas !== 'undefined' ) {
 
 
     var start = Date.now();
-    for( var i = 0; i < 1000; ++i ) {
 
-    }
+    setTimeout( function() {
+      phantomas.setMetric( 'loooooooopTime', Date.now() - start );
+    }, 500 );
 
-    phantomas.setMetric('loooooooopTime', Date.now() - start);
   } )( window.__phantomas );
 }
