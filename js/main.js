@@ -3,10 +3,10 @@
 if ( typeof window.__phantomas !== 'undefined' ) {
   ( function( phantomas ) {
 
-    // add offenders for 'ourReadyMetric'
-    phantomas.addOffender( 'ourReadyMetric', 'Something happened related to ourReadyMetric : someValue foo' );
-    phantomas.addOffender( 'ourReadyMetric', 'Something happened related to ourReadyMetric : someValue bar' );
-    phantomas.addOffender( 'ourReadyMetric', 'Something happened related to ourReadyMetric : someValue baz' );
+    // add offenders for 'ourTimingMetric'
+    phantomas.addOffender( 'ourTimingMetric', 'Something happened related to ourTimingMetric : someValue foo' );
+    phantomas.addOffender( 'ourTimingMetric', 'Something happened related to ourTimingMetric : someValue bar' );
+    phantomas.addOffender( 'ourTimingMetric', 'Something happened related to ourTimingMetric : someValue baz' );
 
     // set up start value
     // to calculate a time difference
@@ -14,9 +14,9 @@ if ( typeof window.__phantomas !== 'undefined' ) {
 
     // set up our listener for DOMready
     // to wait for something
-    document.addEventListener( 'DOMContentLoaded', function() {
-      phantomas.setMetric( 'ourReadyMetric', Date.now() - start );
-    }, false );
+    setTimeout( function() {
+      phantomas.setMetric( 'ourTimingMetric', Date.now() - start );
+    }, 500 );
 
 
     /**
