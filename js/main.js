@@ -2,11 +2,14 @@ if ( typeof window.__phantomas !== 'undefined' ) {
   ( function( phantomas ) {
     var foo = 2222;
 
-    phantomas.setMetric('loooooooopTime');
+    phantomas.setMetric( 'loooooooopTime' );
+    phantomas.setMetric( 'functionCall' );
 
     if ( foo > 1234 ) {
       phantomas.addOffender( 'loooooooopTime', 'Value higher than expected in ' + foo );
+      ++foo;
       phantomas.addOffender( 'loooooooopTime', 'Value higher than expected in ' + foo );
+      ++foo;
       phantomas.addOffender( 'loooooooopTime', 'Value higher than expected in ' + foo );
     }
 
@@ -16,6 +19,14 @@ if ( typeof window.__phantomas !== 'undefined' ) {
     setTimeout( function() {
       phantomas.setMetric( 'loooooooopTime', Date.now() - start );
     }, 500 );
+
+    var a = {
+      foo : function() {}
+    }
+
+    phantomas.spy( a, 'foo', function( a ) {
+      phantomas.incrMetric( 'functionCall' );
+    } );
 
   } )( window.__phantomas );
 }
