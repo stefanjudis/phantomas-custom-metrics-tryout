@@ -1,0 +1,1930 @@
+{
+  "assertions": {
+    "assetsWithQueryString": {
+      "value": 3
+    },
+    "biggestLatency": {
+      "value": 1400
+    },
+    "bodyHTMLSize": {
+      "value": 10500
+    },
+    "commentsSize": {
+      "value": 55
+    },
+    "consoleMessages": {
+      "value": 0
+    },
+    "hiddenContentSize": {
+      "value": 65
+    },
+    "jsErrors": {
+      "value": 0
+    },
+    "gzipRequests": {
+      "value": 8
+    },
+    "medianResponse": {
+      "value": 400
+    },
+    "nodesWithInlineCSS": {
+      "value": 0
+    },
+    "requests": {
+      "value": 30
+    },
+    "timeToFirstImage": {
+      "value": 1100
+    },
+    "DOMelementsCount": {
+      "value": 200
+    },
+    "DOMqueries": {
+      "value": 10
+    },
+    "DOMinserts": {
+      "value": 1
+    }
+  },
+  "metrics": {
+    "requests": {
+      "values": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        null
+      ],
+      "sum": 45,
+      "min": 9,
+      "max": 9,
+      "median": 9,
+      "average": 9
+    },
+    "gzipRequests": {
+      "values": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        null
+      ],
+      "sum": 30,
+      "min": 6,
+      "max": 6,
+      "median": 6,
+      "average": 6
+    },
+    "postRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "httpsRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "notFound": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "bodySize": {
+      "values": [
+        36945,
+        36945,
+        36945,
+        38363,
+        63887,
+        null
+      ],
+      "sum": 213085,
+      "min": 36945,
+      "max": 63887,
+      "median": 36945,
+      "average": 42617
+    },
+    "contentLength": {
+      "values": [
+        36945,
+        36945,
+        36945,
+        38363,
+        63887,
+        null
+      ],
+      "sum": 213085,
+      "min": 36945,
+      "max": 63887,
+      "median": 36945,
+      "average": 42617
+    },
+    "httpTrafficCompleted": {
+      "values": [
+        1312,
+        1369,
+        1876,
+        2049,
+        2218,
+        null
+      ],
+      "sum": 8824,
+      "min": 1312,
+      "max": 2218,
+      "median": 1876,
+      "average": 1764.8
+    },
+    "timeToFirstByte": {
+      "values": [
+        168,
+        204,
+        208,
+        209,
+        218,
+        null
+      ],
+      "sum": 1007,
+      "min": 168,
+      "max": 218,
+      "median": 208,
+      "average": 201.4
+    },
+    "timeToLastByte": {
+      "values": [
+        173,
+        209,
+        213,
+        214,
+        224,
+        null
+      ],
+      "sum": 1033,
+      "min": 173,
+      "max": 224,
+      "median": 213,
+      "average": 206.6
+    },
+    "ajaxRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "htmlCount": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "htmlSize": {
+      "values": [
+        2014,
+        2014,
+        2014,
+        2014,
+        2014,
+        null
+      ],
+      "sum": 10070,
+      "min": 2014,
+      "max": 2014,
+      "median": 2014,
+      "average": 2014
+    },
+    "cssCount": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "cssSize": {
+      "values": [
+        15330,
+        15330,
+        15330,
+        15330,
+        15330,
+        null
+      ],
+      "sum": 76650,
+      "min": 15330,
+      "max": 15330,
+      "median": 15330,
+      "average": 15330
+    },
+    "jsCount": {
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        null
+      ],
+      "sum": 25,
+      "min": 5,
+      "max": 5,
+      "median": 5,
+      "average": 5
+    },
+    "jsSize": {
+      "values": [
+        19566,
+        19566,
+        19566,
+        20984,
+        46508,
+        null
+      ],
+      "sum": 126190,
+      "min": 19566,
+      "max": 46508,
+      "median": 19566,
+      "average": 25238
+    },
+    "jsonCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jsonSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "imageCount": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "imageSize": {
+      "values": [
+        35,
+        35,
+        35,
+        35,
+        35,
+        null
+      ],
+      "sum": 175,
+      "min": 35,
+      "max": 35,
+      "median": 35,
+      "average": 35
+    },
+    "videoCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "videoSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "webfontCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "webfontSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "base64Count": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "base64Size": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "otherCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "otherSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cacheHits": {
+      "values": [
+        6,
+        8,
+        9,
+        9,
+        9,
+        null
+      ],
+      "sum": 41,
+      "min": 6,
+      "max": 9,
+      "median": 9,
+      "average": 8.2
+    },
+    "cacheMisses": {
+      "values": [
+        0,
+        0,
+        0,
+        1,
+        3,
+        null
+      ],
+      "sum": 4,
+      "min": 0,
+      "max": 3,
+      "median": 0,
+      "average": 0.8
+    },
+    "cachePasses": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cachingNotSpecified": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "cachingTooShort": {
+      "values": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        null
+      ],
+      "sum": 30,
+      "min": 6,
+      "max": 6,
+      "median": 6,
+      "average": 6
+    },
+    "cachingDisabled": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "oldCachingHeaders": {
+      "values": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        null
+      ],
+      "sum": 50,
+      "min": 10,
+      "max": 10,
+      "median": 10,
+      "average": 10
+    },
+    "consoleMessages": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cookiesSent": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cookiesRecv": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "domainsWithCookies": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "documentCookiesLength": {
+      "values": [
+        30,
+        31,
+        31,
+        31,
+        31,
+        null
+      ],
+      "sum": 154,
+      "min": 30,
+      "max": 31,
+      "median": 31,
+      "average": 30.8
+    },
+    "documentCookiesCount": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "documentHeight": {
+      "values": [
+        1024,
+        1024,
+        1024,
+        1024,
+        2048,
+        null
+      ],
+      "sum": 6144,
+      "min": 1024,
+      "max": 2048,
+      "median": 1024,
+      "average": 1228.8
+    },
+    "domains": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "maxRequestsPerDomain": {
+      "values": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        null
+      ],
+      "sum": 30,
+      "min": 6,
+      "max": 6,
+      "median": 6,
+      "average": 6
+    },
+    "medianRequestsPerDomain": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "commentsSize": {
+      "values": [
+        339,
+        339,
+        339,
+        339,
+        339,
+        null
+      ],
+      "sum": 1695,
+      "min": 339,
+      "max": 339,
+      "median": 339,
+      "average": 339
+    },
+    "hiddenContentSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "whiteSpacesSize": {
+      "values": [
+        91,
+        91,
+        91,
+        91,
+        91,
+        null
+      ],
+      "sum": 455,
+      "min": 91,
+      "max": 91,
+      "median": 91,
+      "average": 91
+    },
+    "DOMelementsCount": {
+      "values": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        null
+      ],
+      "sum": 30,
+      "min": 6,
+      "max": 6,
+      "median": 6,
+      "average": 6
+    },
+    "DOMelementMaxDepth": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "nodesWithInlineCSS": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMmutationsInserts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMmutationsRemoves": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMmutationsAttributes": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMqueries": {
+      "values": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        null
+      ],
+      "sum": 60,
+      "min": 12,
+      "max": 12,
+      "median": 12,
+      "average": 12
+    },
+    "DOMqueriesById": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "DOMqueriesByClassName": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "DOMqueriesByTagName": {
+      "values": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        null
+      ],
+      "sum": 50,
+      "min": 10,
+      "max": 10,
+      "median": 10,
+      "average": 10
+    },
+    "DOMqueriesByQuerySelectorAll": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMinserts": {
+      "values": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        null
+      ],
+      "sum": 45,
+      "min": 9,
+      "max": 9,
+      "median": 9,
+      "average": 9
+    },
+    "DOMqueriesDuplicated": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "eventsBound": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "globalVariables": {
+      "values": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        null
+      ],
+      "sum": 45,
+      "min": 9,
+      "max": 9,
+      "median": 9,
+      "average": 9
+    },
+    "globalVariablesFalsy": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "headersCount": {
+      "values": [
+        159,
+        159,
+        159,
+        159,
+        159,
+        null
+      ],
+      "sum": 795,
+      "min": 159,
+      "max": 159,
+      "median": 159,
+      "average": 159
+    },
+    "headersSentCount": {
+      "values": [
+        26,
+        26,
+        26,
+        26,
+        26,
+        null
+      ],
+      "sum": 130,
+      "min": 26,
+      "max": 26,
+      "median": 26,
+      "average": 26
+    },
+    "headersRecvCount": {
+      "values": [
+        133,
+        133,
+        133,
+        133,
+        133,
+        null
+      ],
+      "sum": 665,
+      "min": 133,
+      "max": 133,
+      "median": 133,
+      "average": 133
+    },
+    "headersSize": {
+      "values": [
+        5053,
+        5055,
+        5055,
+        5058,
+        5060,
+        null
+      ],
+      "sum": 25281,
+      "min": 5053,
+      "max": 5060,
+      "median": 5055,
+      "average": 5056.2
+    },
+    "headersSentSize": {
+      "values": [
+        1314,
+        1314,
+        1314,
+        1314,
+        1314,
+        null
+      ],
+      "sum": 6570,
+      "min": 1314,
+      "max": 1314,
+      "median": 1314,
+      "average": 1314
+    },
+    "headersRecvSize": {
+      "values": [
+        3739,
+        3741,
+        3741,
+        3744,
+        3746,
+        null
+      ],
+      "sum": 18711,
+      "min": 3739,
+      "max": 3746,
+      "median": 3741,
+      "average": 3742.2
+    },
+    "headersBiggerThanContent": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "documentWriteCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "evalCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryOnDOMReadyFunctions": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQuerySizzleCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jsErrors": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "localStorageEntries": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "redirects": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "redirectsTime": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "assetsNotGzipped": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "assetsWithQueryString": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "assetsWithCookies": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "smallImages": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "multipleRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "timeToFirstCss": {
+      "values": [
+        281,
+        313,
+        339,
+        350,
+        354,
+        null
+      ],
+      "sum": 1637,
+      "min": 281,
+      "max": 354,
+      "median": 339,
+      "average": 327.4
+    },
+    "timeToFirstJs": {
+      "values": [
+        416,
+        419,
+        463,
+        481,
+        481,
+        null
+      ],
+      "sum": 2260,
+      "min": 416,
+      "max": 481,
+      "median": 463,
+      "average": 452
+    },
+    "timeToFirstImage": {
+      "values": [
+        1332,
+        1400,
+        1893,
+        2077,
+        2243,
+        null
+      ],
+      "sum": 8945,
+      "min": 1332,
+      "max": 2243,
+      "median": 1893,
+      "average": 1789
+    },
+    "domInteractive": {
+      "values": [
+        906,
+        980,
+        1247,
+        1652,
+        1844,
+        null
+      ],
+      "sum": 6629,
+      "min": 906,
+      "max": 1844,
+      "median": 1247,
+      "average": 1325.8
+    },
+    "domContentLoaded": {
+      "values": [
+        906,
+        981,
+        1247,
+        1652,
+        1844,
+        null
+      ],
+      "sum": 6630,
+      "min": 906,
+      "max": 1844,
+      "median": 1247,
+      "average": 1326
+    },
+    "domContentLoadedEnd": {
+      "values": [
+        912,
+        987,
+        1253,
+        1657,
+        1851,
+        null
+      ],
+      "sum": 6660,
+      "min": 912,
+      "max": 1851,
+      "median": 1253,
+      "average": 1332
+    },
+    "domComplete": {
+      "values": [
+        1161,
+        1181,
+        1756,
+        1869,
+        2039,
+        null
+      ],
+      "sum": 8006,
+      "min": 1161,
+      "max": 2039,
+      "median": 1756,
+      "average": 1601.2
+    },
+    "timeBackend": {
+      "values": [
+        9,
+        10,
+        11,
+        13,
+        16,
+        null
+      ],
+      "sum": 59,
+      "min": 9,
+      "max": 16,
+      "median": 11,
+      "average": 11.8
+    },
+    "timeFrontend": {
+      "values": [
+        84,
+        87,
+        89,
+        90,
+        91,
+        null
+      ],
+      "sum": 441,
+      "min": 84,
+      "max": 91,
+      "median": 89,
+      "average": 88.2
+    },
+    "functionCalls": {
+      "values": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        null
+      ],
+      "sum": 20,
+      "min": 4,
+      "max": 4,
+      "median": 4,
+      "average": 4
+    },
+    "ourTimingMetric": {
+      "values": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        null
+      ],
+      "sum": 2500,
+      "min": 500,
+      "max": 500,
+      "median": 500,
+      "average": 500
+    },
+    "windowAlerts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "windowConfirms": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "windowPrompts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "bodyHTMLSize": {
+      "values": [
+        1180,
+        1180,
+        1180,
+        1180,
+        1180,
+        null
+      ],
+      "sum": 5900,
+      "min": 1180,
+      "max": 1180,
+      "median": 1180,
+      "average": 1180
+    },
+    "iframesCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "imagesWithoutDimensions": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "smallestResponse": {
+      "values": [
+        35,
+        35,
+        35,
+        35,
+        35,
+        null
+      ],
+      "sum": 175,
+      "min": 35,
+      "max": 35,
+      "median": 35,
+      "average": 35
+    },
+    "biggestResponse": {
+      "values": [
+        15414,
+        15414,
+        15414,
+        15414,
+        27897,
+        null
+      ],
+      "sum": 89553,
+      "min": 15414,
+      "max": 27897,
+      "median": 15414,
+      "average": 17910.6
+    },
+    "fastestResponse": {
+      "values": [
+        41,
+        43,
+        44,
+        45,
+        49,
+        null
+      ],
+      "sum": 222,
+      "min": 41,
+      "max": 49,
+      "median": 44,
+      "average": 44.4
+    },
+    "slowestResponse": {
+      "values": [
+        886,
+        955,
+        955,
+        1633,
+        1815,
+        null
+      ],
+      "sum": 6244,
+      "min": 886,
+      "max": 1815,
+      "median": 955,
+      "average": 1248.8
+    },
+    "smallestLatency": {
+      "values": [
+        41,
+        43,
+        44,
+        45,
+        49,
+        null
+      ],
+      "sum": 222,
+      "min": 41,
+      "max": 49,
+      "median": 44,
+      "average": 44.4
+    },
+    "biggestLatency": {
+      "values": [
+        311,
+        318,
+        331,
+        361,
+        630,
+        null
+      ],
+      "sum": 1951,
+      "min": 311,
+      "max": 630,
+      "median": 331,
+      "average": 390.2
+    },
+    "medianResponse": {
+      "values": [
+        216,
+        220,
+        224,
+        224,
+        225,
+        null
+      ],
+      "sum": 1109,
+      "min": 216,
+      "max": 225,
+      "median": 224,
+      "average": 221.8
+    },
+    "medianLatency": {
+      "values": [
+        216,
+        220,
+        221,
+        223,
+        224,
+        null
+      ],
+      "sum": 1104,
+      "min": 216,
+      "max": 224,
+      "median": 221,
+      "average": 220.8
+    }
+  },
+  "offenders": {
+    "gzipRequests": [
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/ (gzip: 1.97 kB / uncompressed: 1.97 kB)",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/normalize.css (gzip: 9.33 kB / uncompressed: 9.33 kB)",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/main.css (gzip: 5.64 kB / uncompressed: 5.64 kB)",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/vendor/modernizr-2.6.2.min.js (gzip: 15.05 kB / uncompressed: 15.05 kB)",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/plugins.js (gzip: 0.72 kB / uncompressed: 0.72 kB)",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/main.js (gzip: 1.37 kB / uncompressed: 1.37 kB)"
+    ],
+    "htmlCount": [
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/ (1.97 kB)"
+    ],
+    "cssCount": [
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/normalize.css (9.33 kB)",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/main.css (5.64 kB)"
+    ],
+    "jsCount": [
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/vendor/modernizr-2.6.2.min.js (15.05 kB)",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/plugins.js (0.72 kB)",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/main.js (1.37 kB)",
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (27.24 kB)",
+      "http://www.google-analytics.com/analytics.js (1.04 kB)",
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (2.32 kB)",
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (0.93 kB)"
+    ],
+    "imageCount": [
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1522257463&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=2560x2048&je=0&_u=MEAAAAQ~&cid=167849455.1409875202&tid=UA-XXXXX-X&z=524819341 (0.03 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=914300103&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1446742009.1409875202&tid=UA-XXXXX-X&z=835868374 (0.03 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1708437489&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1797215959.1409875202&tid=UA-XXXXX-X&z=1865170936 (0.03 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=179828066&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1216040452.1409875201&tid=UA-XXXXX-X&z=319763568 (0.03 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=952759762&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1417629212.1409875201&tid=UA-XXXXX-X&z=182260524 (0.03 kB)"
+    ],
+    "cacheHits": [
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/normalize.css",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/main.css",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/vendor/modernizr-2.6.2.min.js",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/plugins.js",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/main.js",
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+      "http://www.google-analytics.com/analytics.js",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1522257463&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=2560x2048&je=0&_u=MEAAAAQ~&cid=167849455.1409875202&tid=UA-XXXXX-X&z=524819341",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=914300103&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1446742009.1409875202&tid=UA-XXXXX-X&z=835868374",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1708437489&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1797215959.1409875202&tid=UA-XXXXX-X&z=1865170936",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=179828066&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1216040452.1409875201&tid=UA-XXXXX-X&z=319763568",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=952759762&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1417629212.1409875201&tid=UA-XXXXX-X&z=182260524"
+    ],
+    "cachingNotSpecified": [
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1522257463&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=2560x2048&je=0&_u=MEAAAAQ~&cid=167849455.1409875202&tid=UA-XXXXX-X&z=524819341",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=914300103&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1446742009.1409875202&tid=UA-XXXXX-X&z=835868374",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1708437489&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1797215959.1409875202&tid=UA-XXXXX-X&z=1865170936",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=179828066&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1216040452.1409875201&tid=UA-XXXXX-X&z=319763568",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=952759762&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1417629212.1409875201&tid=UA-XXXXX-X&z=182260524"
+    ],
+    "cachingTooShort": [
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/normalize.css cached for 600 s",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/main.css cached for 600 s",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/vendor/modernizr-2.6.2.min.js cached for 600 s",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/plugins.js cached for 600 s",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/main.js cached for 600 s",
+      "http://www.google-analytics.com/analytics.js cached for 7200 s"
+    ],
+    "oldCachingHeaders": [
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/ - Expires: Fri, 05 Sep 2014 00:09:59 GMT",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/normalize.css - Expires: Fri, 05 Sep 2014 00:10:00 GMT",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/main.css - Expires: Fri, 05 Sep 2014 00:10:00 GMT",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/vendor/modernizr-2.6.2.min.js - Expires: Fri, 05 Sep 2014 00:10:00 GMT",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/plugins.js - Expires: Fri, 05 Sep 2014 00:10:00 GMT",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/main.js - Expires: Fri, 05 Sep 2014 00:10:00 GMT",
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js - Expires: Fri, 04 Sep 2015 10:50:09 GMT",
+      "http://www.google-analytics.com/analytics.js - Expires: Fri, 05 Sep 2014 01:22:10 GMT",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1522257463&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=2560x2048&je=0&_u=MEAAAAQ~&cid=167849455.1409875202&tid=UA-XXXXX-X&z=524819341 - Pragma: no-cache",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1522257463&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=2560x2048&je=0&_u=MEAAAAQ~&cid=167849455.1409875202&tid=UA-XXXXX-X&z=524819341 - Expires: Mon, 07 Aug 1995 23:30:00 GMT",
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js - Expires: Fri, 04 Sep 2015 11:03:49 GMT",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=914300103&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1446742009.1409875202&tid=UA-XXXXX-X&z=835868374 - Pragma: no-cache",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=914300103&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1446742009.1409875202&tid=UA-XXXXX-X&z=835868374 - Expires: Mon, 07 Aug 1995 23:30:00 GMT",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1708437489&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1797215959.1409875202&tid=UA-XXXXX-X&z=1865170936 - Pragma: no-cache",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1708437489&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1797215959.1409875202&tid=UA-XXXXX-X&z=1865170936 - Expires: Mon, 07 Aug 1995 23:30:00 GMT",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=179828066&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1216040452.1409875201&tid=UA-XXXXX-X&z=319763568 - Pragma: no-cache",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=179828066&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1216040452.1409875201&tid=UA-XXXXX-X&z=319763568 - Expires: Mon, 07 Aug 1995 23:30:00 GMT",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=952759762&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1417629212.1409875201&tid=UA-XXXXX-X&z=182260524 - Pragma: no-cache",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=952759762&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1417629212.1409875201&tid=UA-XXXXX-X&z=182260524 - Expires: Mon, 07 Aug 1995 23:30:00 GMT"
+    ],
+    "domains": [
+      "stefanjudis.github.io: 6 request(s)",
+      "www.google-analytics.com: 2 request(s)",
+      "ajax.googleapis.com: 1 request(s)"
+    ],
+    "commentsSize": [
+      "body > #comment[1] (223 characters)",
+      "body > #comment[15] (66 characters)"
+    ],
+    "DOMqueriesByClassName": [
+      ".i"
+    ],
+    "DOMqueriesByTagName": [
+      "script",
+      "*",
+      "a",
+      "input",
+      "tbody",
+      "link",
+      "body",
+      "td"
+    ],
+    "DOMinserts": [
+      "\"body\" appended to\"html\"",
+      "\"body\" appended to \"html\"",
+      "\"input\" appended to \"html\"",
+      "\"div\" appended to \"html\"",
+      "\"script\" appended to \"head\"",
+      "\"div\" appended to \"body\"",
+      "\"div\" appended to \"body > div[19]\"",
+      "\"div\" appended to \"body > div[19] > div[0]\""
+    ],
+    "DOMqueriesDuplicated": [
+      "tag name \"script\": 2 queries",
+      "tag name \"*\": 2 queries"
+    ],
+    "eventsBound": [
+      "\"DOMContentLoaded\" bound to \"#document\"",
+      "\"load\" bound to \"window\""
+    ],
+    "globalVariables": [
+      "jQuery",
+      "html5",
+      "Modernizr",
+      "yepnope",
+      "$",
+      "GoogleAnalyticsObject",
+      "ga",
+      "gaplugins",
+      "gaGlobal"
+    ],
+    "headersBiggerThanContent": [
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1522257463&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=2560x2048&je=0&_u=MEAAAAQ~&cid=167849455.1409875202&tid=UA-XXXXX-X&z=524819341 (body: 0.03 kB / headers: 0.37 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=914300103&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1446742009.1409875202&tid=UA-XXXXX-X&z=835868374 (body: 0.03 kB / headers: 0.37 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1708437489&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1797215959.1409875202&tid=UA-XXXXX-X&z=1865170936 (body: 0.03 kB / headers: 0.37 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=179828066&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1216040452.1409875201&tid=UA-XXXXX-X&z=319763568 (body: 0.03 kB / headers: 0.37 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=952759762&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1417629212.1409875201&tid=UA-XXXXX-X&z=182260524 (body: 0.03 kB / headers: 0.37 kB)"
+    ],
+    "assetsNotGzipped": [
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (JS)",
+      "http://www.google-analytics.com/analytics.js (JS)"
+    ],
+    "assetsWithQueryString": [
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1522257463&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=2560x2048&je=0&_u=MEAAAAQ~&cid=167849455.1409875202&tid=UA-XXXXX-X&z=524819341 (IMAGE)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=914300103&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1446742009.1409875202&tid=UA-XXXXX-X&z=835868374 (IMAGE)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1708437489&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1797215959.1409875202&tid=UA-XXXXX-X&z=1865170936 (IMAGE)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=179828066&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1216040452.1409875201&tid=UA-XXXXX-X&z=319763568 (IMAGE)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=952759762&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1417629212.1409875201&tid=UA-XXXXX-X&z=182260524 (IMAGE)"
+    ],
+    "smallImages": [
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1522257463&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=2560x2048&je=0&_u=MEAAAAQ~&cid=167849455.1409875202&tid=UA-XXXXX-X&z=524819341 (0.03 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=914300103&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1446742009.1409875202&tid=UA-XXXXX-X&z=835868374 (0.03 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1708437489&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1797215959.1409875202&tid=UA-XXXXX-X&z=1865170936 (0.03 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=179828066&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1216040452.1409875201&tid=UA-XXXXX-X&z=319763568 (0.03 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=952759762&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1417629212.1409875201&tid=UA-XXXXX-X&z=182260524 (0.03 kB)"
+    ],
+    "timeToFirstCss": [
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/normalize.css received in 281 ms",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/normalize.css received in 350 ms",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/normalize.css received in 339 ms",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/normalize.css received in 354 ms",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/normalize.css received in 313 ms"
+    ],
+    "timeToFirstJs": [
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/vendor/modernizr-2.6.2.min.js received in 416 ms",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/vendor/modernizr-2.6.2.min.js received in 481 ms",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/vendor/modernizr-2.6.2.min.js received in 463 ms",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/vendor/modernizr-2.6.2.min.js received in 419 ms"
+    ],
+    "timeToFirstImage": [
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1522257463&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=2560x2048&je=0&_u=MEAAAAQ~&cid=167849455.1409875202&tid=UA-XXXXX-X&z=524819341 received in 1893 ms",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=914300103&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1446742009.1409875202&tid=UA-XXXXX-X&z=835868374 received in 2077 ms",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1708437489&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1797215959.1409875202&tid=UA-XXXXX-X&z=1865170936 received in 2243 ms",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=179828066&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1216040452.1409875201&tid=UA-XXXXX-X&z=319763568 received in 1400 ms",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=952759762&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1417629212.1409875201&tid=UA-XXXXX-X&z=182260524 received in 1332 ms"
+    ],
+    "ourTimingMetric": [
+      "Something happened related to ourTimingMetric : someValue foo",
+      "Something happened related to ourTimingMetric : someValue bar",
+      "Something happened related to ourTimingMetric : someValue baz"
+    ],
+    "smallestResponse": [
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1522257463&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=2560x2048&je=0&_u=MEAAAAQ~&cid=167849455.1409875202&tid=UA-XXXXX-X&z=524819341 (0.03 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=914300103&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1446742009.1409875202&tid=UA-XXXXX-X&z=835868374 (0.03 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1708437489&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1797215959.1409875202&tid=UA-XXXXX-X&z=1865170936 (0.03 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=179828066&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1216040452.1409875201&tid=UA-XXXXX-X&z=319763568 (0.03 kB)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=952759762&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1417629212.1409875201&tid=UA-XXXXX-X&z=182260524 (0.03 kB)"
+    ],
+    "biggestResponse": [
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (27.24 kB)",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/vendor/modernizr-2.6.2.min.js (15.05 kB)"
+    ],
+    "fastestResponse": [
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1522257463&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=2560x2048&je=0&_u=MEAAAAQ~&cid=167849455.1409875202&tid=UA-XXXXX-X&z=524819341 (45 ms)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=914300103&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1446742009.1409875202&tid=UA-XXXXX-X&z=835868374 (41 ms)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1708437489&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1797215959.1409875202&tid=UA-XXXXX-X&z=1865170936 (44 ms)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=179828066&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1216040452.1409875201&tid=UA-XXXXX-X&z=319763568 (43 ms)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=952759762&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1417629212.1409875201&tid=UA-XXXXX-X&z=182260524 (49 ms)"
+    ],
+    "slowestResponse": [
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (955 ms)",
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (1633 ms)",
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (1815 ms)",
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (886 ms)"
+    ],
+    "smallestLatency": [
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1522257463&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=2560x2048&je=0&_u=MEAAAAQ~&cid=167849455.1409875202&tid=UA-XXXXX-X&z=524819341 (45 ms)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=914300103&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1446742009.1409875202&tid=UA-XXXXX-X&z=835868374 (41 ms)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=1708437489&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1797215959.1409875202&tid=UA-XXXXX-X&z=1865170936 (44 ms)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=179828066&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1216040452.1409875201&tid=UA-XXXXX-X&z=319763568 (43 ms)",
+      "http://www.google-analytics.com/collect?v=1&_v=j26&a=952759762&t=pageview&_s=1&dl=http%3A%2F%2Fstefanjudis.github.io%2Fphantomas-custom-metrics-tryout%2F&ul=de-de&de=UTF-8&sd=32-bit&sr=2560x1080&vp=1280x1024&je=0&_u=MEAAAAQ~&cid=1417629212.1409875201&tid=UA-XXXXX-X&z=182260524 (49 ms)"
+    ],
+    "biggestLatency": [
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (630 ms)",
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (311 ms)",
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (318 ms)",
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (361 ms)",
+      "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (331 ms)"
+    ],
+    "cacheMisses": [
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/normalize.css",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/css/main.css",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/js/main.js",
+      "http://stefanjudis.github.io/phantomas-custom-metrics-tryout/"
+    ]
+  }
+}
